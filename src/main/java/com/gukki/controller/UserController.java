@@ -45,7 +45,8 @@ public class UserController {
     @RequestMapping("/reg")//request register
     public String Reg(@RequestBody JSONObject user) {
         User user1 = JSON.toJavaObject(user, User.class);
-        userService.Regist(user1);
-        return JSON.toJSONString(Res.ActionSucces("Reg Success"));
+        Res res = userService.Regist(user1);
+        System.out.println(res);
+        return JSON.toJSONString(res);
     }
 }

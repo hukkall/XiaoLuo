@@ -14,6 +14,6 @@
   <a href="${pageContext.request.contextPath}/t1?username=admin&password=974800916">Click1</a><br/>
   <a href="${pageContext.request.contextPath}/t1?username=lisi&password=974800916">Click</a><br/>
   <a href="${pageContext.request.contextPath}/t1?username=zhangsan&password=990101">Click_Right</a><br/>
-  <a href="${pageContext.request.contextPath}/goreg">Reg</a><br/>
+  <a href="${pageContext.request.contextPath}/user/goreg">Reg</a><br/>
   </body>
 </html>

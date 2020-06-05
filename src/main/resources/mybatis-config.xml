@@ -6,7 +6,7 @@
     <typeAliases>
         <package name="com.gukki.pojo"/>
     </typeAliases>
-    <mappers>
-        <mapper class="com.gukki.dao.UserMapper"/>
-    </mappers>
+<!--    <mappers>-->
+<!--        <mapper class="com.gukki.dao.UserMapper"/>-->
+<!--    </mappers>-->
 </configuration>

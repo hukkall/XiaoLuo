@@ -32,6 +32,7 @@ public class UserServiceImpl implements UserService {
         User user1;
         if((user1=mapper.CheckLogin(user.getName(),""))==null){//check username is occupide?
             mapper.AddUser(user);
+            return Res.ActionSucces("Create Success");
         }
         return Res.ActionError("Occupied Username");
     }

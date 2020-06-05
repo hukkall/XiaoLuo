@@ -24,7 +24,7 @@
             });
             $.ajax({
                 type: "post",
-                url: "${pageContext.request.contextPath}/reg",
+                url: "${pageContext.request.contextPath}/user/reg",
                 data: JSON.stringify(data),
                 dataType: "json",
                 contentType: "application/json;charset=UTF-8",
