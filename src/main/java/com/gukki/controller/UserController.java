@@ -17,26 +17,28 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@Controller
 @RestController
+@RequestMapping("/user")
 public class UserController {
     @Autowired
     private UserServiceImpl userService;
 
-    @RequestMapping("/t1")//Login
+    @RequestMapping("/gologin")
+    public ModelAndView GoLogin(){
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("login");//jump login.jsp
+        return modelAndView;
+    }
+    @RequestMapping("/login")//Login
     public String Login(String username, String password) {
         Res res = userService.IsLoginSuccess(username, password);
-        System.out.println(res);
-        System.out.println(username + ":" + password);
-        String s = JSON.toJSONString(res);
-        System.out.println(s);
-        return s;
+        return JSON.toJSONString(res);
     }
 
     @RequestMapping("/goreg")// go registered page
     public ModelAndView goReg() throws IOException {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("add");
+        modelAndView.setViewName("add");//jump add.jsp
         return modelAndView;
     }
 
