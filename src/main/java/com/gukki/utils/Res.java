@@ -8,7 +8,7 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Res implements Serializable {
+public class Res implements Serializable {//return massage to view
     private int status;
     private String msg;
     private Object data;

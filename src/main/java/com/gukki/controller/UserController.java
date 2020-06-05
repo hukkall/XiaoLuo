@@ -23,7 +23,7 @@ public class UserController {
     @Autowired
     private UserServiceImpl userService;
 
-    @RequestMapping("/t1")
+    @RequestMapping("/t1")//Login
     public String Login(String username, String password) {
         Res res = userService.IsLoginSuccess(username, password);
         System.out.println(res);
@@ -33,14 +33,14 @@ public class UserController {
         return s;
     }
 
-    @RequestMapping("/goreg")
+    @RequestMapping("/goreg")// go registered page
     public ModelAndView goReg() throws IOException {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("add");
         return modelAndView;
     }
 
-    @RequestMapping("/reg")
+    @RequestMapping("/reg")//request register
     public String Reg(@RequestBody JSONObject user) {
         User user1 = JSON.toJavaObject(user, User.class);
         userService.Regist(user1);

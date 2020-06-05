@@ -17,10 +17,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public Res IsLoginSuccess(String name, String password) {
         User user;
-        if((user=mapper.CheckLogin(name,""))==null){
+        if((user=mapper.CheckLogin(name,""))==null){//check username
             return Res.ActionError("Username Error");//Username error
         }
-        if ((user=mapper.CheckLogin(name,password))!=null){
+        if ((user=mapper.CheckLogin(name,password))!=null){//check password
             return Res.ActionSucces("Success",user);//success
         }
         return Res.ActionError("Password Error");//Password error
@@ -30,7 +30,7 @@ public class UserServiceImpl implements UserService {
     @Transactional
     public Res Regist(User user) {
         User user1;
-        if((user1=mapper.CheckLogin(user.getName(),""))==null){
+        if((user1=mapper.CheckLogin(user.getName(),""))==null){//check username is occupide?
             mapper.AddUser(user);
         }
         return Res.ActionError("Occupied Username");
