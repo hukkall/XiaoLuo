@@ -29,7 +29,7 @@
                 dataType: "json",
                 contentType: "application/json;charset=UTF-8",
                 success: function (result) {
-                    alert(result);
+                    console.log(result);
                 }
             });
             alert("提交成功，请在Tomcat控制台查看服务端接收到的数据");
