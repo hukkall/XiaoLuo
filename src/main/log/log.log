@@ -1,0 +1,465 @@
+2020-06-05 13:54:10.257 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 13:54:10.725 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 13:54:10.726 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 13:54:10.828 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 13:54:10.872 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 13:54:11.107 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 13:54:11.108 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 13:54:11.644 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1379 ms
+2020-06-05 13:54:26.011 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 13:54:26.017 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f5b1257] was not registered for synchronization because synchronization is not active
+2020-06-05 13:54:26.119 INFO [http-nio-8080-exec-6][AbstractPoolBackedDataSource.java:527] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 2, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge70haa10cyl2kxqed3t|115b4ee0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge70haa10cyl2kxqed3t|115b4ee0, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/ssmbuild?useSSL=true&serverTimezone=GMT, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2020-06-05 13:54:26.136 WARN [http-nio-8080-exec-6][BasicResourcePool.java:291] - Bad pool size config, start 3 < min 10. Using 10 as start.
+2020-06-05 13:54:26.523 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@321c50a [wrapping: com.mysql.cj.jdbc.ConnectionImpl@3ff871da]] will not be managed by Spring
+2020-06-05 13:54:26.534 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 13:54:26.534 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 13:54:26.586 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null
+2020-06-05 13:54:26.586 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null
+2020-06-05 13:54:26.637 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 13:54:26.637 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 13:54:26.645 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f5b1257]
+2020-06-05 13:54:26.647 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 13:54:26.647 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@390a90d8] was not registered for synchronization because synchronization is not active
+2020-06-05 13:54:26.653 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@2445ee06 [wrapping: com.mysql.cj.jdbc.ConnectionImpl@3ff871da]] will not be managed by Spring
+2020-06-05 13:54:26.653 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, value (?,?,?,? 
+2020-06-05 13:54:26.653 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, value (?,?,?,? 
+2020-06-05 13:54:26.654 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null, null, null, 0(Integer)
+2020-06-05 13:54:26.654 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null, null, null, 0(Integer)
+2020-06-05 13:54:26.670 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@390a90d8]
+2020-06-05 13:55:55.018 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 13:55:55.488 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 13:55:55.489 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 13:55:55.590 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 13:55:55.632 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 13:55:55.874 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 13:55:55.876 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 13:55:56.416 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1390 ms
+2020-06-05 14:15:26.770 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 14:15:26.777 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f590d15] was not registered for synchronization because synchronization is not active
+2020-06-05 14:15:26.884 INFO [http-nio-8080-exec-8][AbstractPoolBackedDataSource.java:527] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 2, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge70haa10d0twl1wcd1gh|3529963, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge70haa10d0twl1wcd1gh|3529963, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/ssmbuild?useSSL=true&serverTimezone=GMT, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2020-06-05 14:15:26.902 WARN [http-nio-8080-exec-8][BasicResourcePool.java:291] - Bad pool size config, start 3 < min 10. Using 10 as start.
+2020-06-05 14:15:27.329 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@73995fe1 [wrapping: com.mysql.cj.jdbc.ConnectionImpl@17e967a1]] will not be managed by Spring
+2020-06-05 14:15:27.339 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 14:15:27.339 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 14:15:27.385 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null
+2020-06-05 14:15:27.385 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null
+2020-06-05 14:15:27.419 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 14:15:27.419 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 14:15:27.425 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f590d15]
+2020-06-05 14:15:27.428 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 14:15:27.428 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@288d168e] was not registered for synchronization because synchronization is not active
+2020-06-05 14:15:27.434 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@77715768 [wrapping: com.mysql.cj.jdbc.ConnectionImpl@17e967a1]] will not be managed by Spring
+2020-06-05 14:15:27.435 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, value (?,?,?,? 
+2020-06-05 14:15:27.435 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, value (?,?,?,? 
+2020-06-05 14:15:27.435 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null, null, null, 0(Integer)
+2020-06-05 14:15:27.435 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null, null, null, 0(Integer)
+2020-06-05 14:15:27.451 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@288d168e]
+2020-06-05 14:17:47.216 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 14:17:47.216 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cf81170] was not registered for synchronization because synchronization is not active
+2020-06-05 14:17:47.217 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7dc51b4b [wrapping: com.mysql.cj.jdbc.ConnectionImpl@17e967a1]] will not be managed by Spring
+2020-06-05 14:17:47.217 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 14:17:47.217 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 14:17:47.218 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null
+2020-06-05 14:17:47.218 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null
+2020-06-05 14:17:47.219 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 14:17:47.219 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 14:17:47.219 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cf81170]
+2020-06-05 14:17:47.219 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 14:17:47.220 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53a409eb] was not registered for synchronization because synchronization is not active
+2020-06-05 14:17:47.220 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@35cf780e [wrapping: com.mysql.cj.jdbc.ConnectionImpl@17e967a1]] will not be managed by Spring
+2020-06-05 14:17:47.221 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, value (?,?,?,? 
+2020-06-05 14:17:47.221 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, value (?,?,?,? 
+2020-06-05 14:17:47.221 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null, null, null, 0(Integer)
+2020-06-05 14:17:47.221 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null, null, null, 0(Integer)
+2020-06-05 14:17:47.223 DEBUG [http-nio-8080-exec-4][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53a409eb]
+2020-06-05 14:18:01.046 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 14:18:01.047 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d9ec64d] was not registered for synchronization because synchronization is not active
+2020-06-05 14:18:01.047 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6737bc94 [wrapping: com.mysql.cj.jdbc.ConnectionImpl@17e967a1]] will not be managed by Spring
+2020-06-05 14:18:01.047 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 14:18:01.047 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 14:18:01.048 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null
+2020-06-05 14:18:01.048 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null
+2020-06-05 14:18:01.049 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 14:18:01.049 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 14:18:01.049 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d9ec64d]
+2020-06-05 14:18:01.049 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 14:18:01.050 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1fa4de0e] was not registered for synchronization because synchronization is not active
+2020-06-05 14:18:01.050 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@39d141c [wrapping: com.mysql.cj.jdbc.ConnectionImpl@17e967a1]] will not be managed by Spring
+2020-06-05 14:18:01.050 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, value (?,?,?,? 
+2020-06-05 14:18:01.050 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, value (?,?,?,? 
+2020-06-05 14:18:01.051 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null, null, null, 0(Integer)
+2020-06-05 14:18:01.051 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: null, null, null, 0(Integer)
+2020-06-05 14:18:01.053 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1fa4de0e]
+2020-06-05 14:30:21.163 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 14:30:21.637 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 14:30:21.638 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 14:30:21.736 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 14:30:21.778 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 14:30:22.013 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 14:30:22.015 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 14:30:22.544 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1373 ms
+2020-06-05 14:43:26.504 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 14:43:26.970 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 14:43:26.971 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 14:43:27.074 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 14:43:27.116 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 14:43:27.351 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 14:43:27.353 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 14:43:27.889 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1376 ms
+2020-06-05 14:45:05.867 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 14:45:06.353 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 14:45:06.353 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 14:45:06.457 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 14:45:06.499 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 14:45:06.742 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 14:45:06.744 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 14:45:07.284 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1409 ms
+2020-06-05 14:45:55.371 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 14:45:55.842 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 14:45:55.843 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 14:45:55.952 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 14:45:55.997 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 14:45:56.238 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 14:45:56.240 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 14:45:56.786 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1406 ms
+2020-06-05 14:47:56.562 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 14:47:57.039 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 14:47:57.040 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 14:47:57.141 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 14:47:57.184 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 14:47:57.423 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 14:47:57.425 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 14:47:57.964 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1394 ms
+2020-06-05 14:50:00.988 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 14:50:01.460 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 14:50:01.460 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 14:50:01.560 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 14:50:01.603 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 14:50:01.843 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 14:50:01.845 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 14:50:02.390 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1394 ms
+2020-06-05 14:55:46.877 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 14:55:47.384 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 14:55:47.384 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 14:55:47.490 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 14:55:47.534 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 14:55:47.789 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 14:55:47.791 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 14:55:48.361 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1474 ms
+2020-06-05 14:57:50.070 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 14:57:50.556 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 14:57:50.557 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 14:57:50.658 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 14:57:50.701 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 14:57:50.940 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 14:57:50.942 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 14:57:51.504 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1426 ms
+2020-06-05 14:59:46.014 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 14:59:46.506 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 14:59:46.506 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 14:59:46.605 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 14:59:46.648 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 14:59:46.906 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 14:59:46.908 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 14:59:47.480 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1458 ms
+2020-06-05 15:04:06.623 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:04:07.103 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:04:07.104 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:04:07.208 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:04:07.250 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:04:07.490 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:04:07.492 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:04:08.041 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1410 ms
+2020-06-05 15:05:20.555 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:05:21.025 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:05:21.026 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:05:21.128 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:05:21.171 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:05:21.407 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:05:21.409 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:05:21.955 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1391 ms
+2020-06-05 15:09:46.945 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:09:47.412 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:09:47.412 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:09:47.512 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:09:47.554 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:09:47.789 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:09:47.791 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:09:48.320 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1366 ms
+2020-06-05 15:11:57.353 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:11:57.829 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:11:57.830 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:11:57.929 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:11:57.973 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:11:58.210 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:11:58.212 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:11:58.747 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1386 ms
+2020-06-05 15:13:19.699 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:13:20.187 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:13:20.188 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:13:20.295 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:13:20.338 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:13:20.580 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:13:20.581 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:13:21.124 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1417 ms
+2020-06-05 15:15:04.765 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:15:05.250 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:15:05.252 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:15:05.352 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:15:05.394 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:15:05.630 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:15:05.632 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:15:06.170 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1397 ms
+2020-06-05 15:17:49.825 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:17:50.297 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:17:50.298 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:17:50.397 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:17:50.441 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:17:50.675 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:17:50.677 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:17:51.218 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1384 ms
+2020-06-05 15:18:57.735 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:18:58.202 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:18:58.203 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:18:58.306 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:18:58.350 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:18:58.588 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:18:58.589 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:18:59.157 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1413 ms
+2020-06-05 15:20:08.607 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:20:09.077 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:20:09.078 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:20:09.181 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:20:09.224 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:20:09.461 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:20:09.462 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:20:09.995 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1380 ms
+2020-06-05 15:22:31.753 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:22:32.228 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:22:32.229 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:22:32.329 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:22:32.372 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:22:32.617 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:22:32.619 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:22:33.165 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1404 ms
+2020-06-05 15:27:23.691 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:27:24.181 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:27:24.182 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:27:24.287 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:27:24.331 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:27:24.570 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:27:24.572 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:27:25.128 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1429 ms
+2020-06-05 15:28:54.256 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:28:54.741 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:28:54.742 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:28:54.843 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:28:54.887 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:28:55.129 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:28:55.131 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:28:55.691 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1426 ms
+2020-06-05 15:30:54.144 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:30:54.620 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:30:54.621 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:30:54.722 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:30:54.764 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:30:55.007 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:30:55.009 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:30:55.540 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1388 ms
+2020-06-05 15:34:39.564 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 15:34:40.089 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 15:34:40.090 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 15:34:40.207 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 15:34:40.255 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 15:34:40.596 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 15:34:40.599 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 15:34:41.520 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1948 ms
+2020-06-05 16:19:22.838 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:19:23.320 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:19:23.321 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:19:23.423 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:19:23.467 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:19:23.710 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:19:23.712 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:19:24.261 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1414 ms
+2020-06-05 16:23:13.981 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:23:14.484 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:23:14.485 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:23:14.596 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:23:14.644 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:23:14.901 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:23:14.903 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:23:15.540 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1550 ms
+2020-06-05 16:24:32.470 INFO [RMI TCP Connection(6)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:24:32.854 DEBUG [RMI TCP Connection(6)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:24:32.855 DEBUG [RMI TCP Connection(6)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:24:32.940 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:24:32.976 INFO [RMI TCP Connection(6)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:24:32.977 WARN [RMI TCP Connection(6)-127.0.0.1][ActiveManagementCoordinator.java:92] - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+2020-06-05 16:24:33.152 DEBUG [RMI TCP Connection(6)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:24:33.154 DEBUG [RMI TCP Connection(6)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:24:33.656 INFO [RMI TCP Connection(6)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1179 ms
+2020-06-05 16:27:25.801 INFO [RMI TCP Connection(9)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:27:26.183 DEBUG [RMI TCP Connection(9)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:27:26.184 DEBUG [RMI TCP Connection(9)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:27:26.269 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:27:26.305 INFO [RMI TCP Connection(9)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:27:26.306 WARN [RMI TCP Connection(9)-127.0.0.1][ActiveManagementCoordinator.java:92] - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+2020-06-05 16:27:26.465 DEBUG [RMI TCP Connection(9)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:27:26.467 DEBUG [RMI TCP Connection(9)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:27:26.947 INFO [RMI TCP Connection(9)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1138 ms
+2020-06-05 16:29:38.694 INFO [RMI TCP Connection(12)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:29:39.064 DEBUG [RMI TCP Connection(12)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:29:39.065 DEBUG [RMI TCP Connection(12)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:29:39.157 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:29:39.193 INFO [RMI TCP Connection(12)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:29:39.194 WARN [RMI TCP Connection(12)-127.0.0.1][ActiveManagementCoordinator.java:92] - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+2020-06-05 16:29:39.351 DEBUG [RMI TCP Connection(12)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:29:39.353 DEBUG [RMI TCP Connection(12)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:29:39.824 INFO [RMI TCP Connection(12)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1123 ms
+2020-06-05 16:30:42.230 INFO [RMI TCP Connection(15)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:30:42.599 DEBUG [RMI TCP Connection(15)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:30:42.600 DEBUG [RMI TCP Connection(15)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:30:42.683 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:30:42.719 INFO [RMI TCP Connection(15)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:30:42.720 WARN [RMI TCP Connection(15)-127.0.0.1][ActiveManagementCoordinator.java:92] - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+2020-06-05 16:30:42.887 DEBUG [RMI TCP Connection(15)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:30:42.888 DEBUG [RMI TCP Connection(15)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:30:43.373 INFO [RMI TCP Connection(15)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1136 ms
+2020-06-05 16:30:48.397 WARN [http-nio-8080-exec-28][AbstractHandlerExceptionResolver.java:199] - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Name': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Name': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 6]]
+2020-06-05 16:31:46.460 INFO [RMI TCP Connection(18)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:31:46.823 DEBUG [RMI TCP Connection(18)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:31:46.824 DEBUG [RMI TCP Connection(18)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:31:46.911 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:31:46.947 INFO [RMI TCP Connection(18)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:31:46.948 WARN [RMI TCP Connection(18)-127.0.0.1][ActiveManagementCoordinator.java:92] - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+2020-06-05 16:31:47.104 DEBUG [RMI TCP Connection(18)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:31:47.106 DEBUG [RMI TCP Connection(18)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:31:47.551 INFO [RMI TCP Connection(18)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1083 ms
+2020-06-05 16:32:15.695 INFO [RMI TCP Connection(20)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:32:16.059 DEBUG [RMI TCP Connection(20)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:32:16.060 DEBUG [RMI TCP Connection(20)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:32:16.145 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:32:16.182 INFO [RMI TCP Connection(20)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:32:16.183 WARN [RMI TCP Connection(20)-127.0.0.1][ActiveManagementCoordinator.java:92] - A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+2020-06-05 16:32:16.339 DEBUG [RMI TCP Connection(20)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:32:16.341 DEBUG [RMI TCP Connection(20)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:32:16.813 INFO [RMI TCP Connection(20)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1110 ms
+2020-06-05 16:35:26.133 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:35:26.614 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:35:26.615 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:35:26.718 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:35:26.762 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:35:27.005 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:35:27.007 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:35:27.561 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1419 ms
+2020-06-05 16:35:42.770 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 16:35:42.777 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13619643] was not registered for synchronization because synchronization is not active
+2020-06-05 16:35:42.885 INFO [http-nio-8080-exec-6][AbstractPoolBackedDataSource.java:527] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 2, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge70haa10ipz1af82m8n|21af1094, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge70haa10ipz1af82m8n|21af1094, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/ssmbuild?useSSL=true&serverTimezone=GMT, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2020-06-05 16:35:42.908 WARN [http-nio-8080-exec-6][BasicResourcePool.java:291] - Bad pool size config, start 3 < min 10. Using 10 as start.
+2020-06-05 16:35:43.347 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@630ca78d [wrapping: com.mysql.cj.jdbc.ConnectionImpl@129b085c]] will not be managed by Spring
+2020-06-05 16:35:43.357 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 16:35:43.357 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 16:35:43.412 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 123(String)
+2020-06-05 16:35:43.412 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 123(String)
+2020-06-05 16:35:43.445 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 16:35:43.445 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 16:35:43.452 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13619643]
+2020-06-05 16:35:43.455 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 16:35:43.455 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7794bee6] was not registered for synchronization because synchronization is not active
+2020-06-05 16:35:43.462 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7337d0b7 [wrapping: com.mysql.cj.jdbc.ConnectionImpl@129b085c]] will not be managed by Spring
+2020-06-05 16:35:43.462 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, Nickname ) value (?,?,?,? ? ) 
+2020-06-05 16:35:43.462 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, Nickname ) value (?,?,?,? ? ) 
+2020-06-05 16:35:43.464 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 123(String), 123(String), 123(String), 0(Integer), 123(String)
+2020-06-05 16:35:43.464 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 123(String), 123(String), 123(String), 0(Integer), 123(String)
+2020-06-05 16:35:43.481 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7794bee6]
+2020-06-05 16:49:47.542 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:49:48.042 TRACE [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:425] - Scanning file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:49:48.043 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:49:48.044 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:49:48.150 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:49:48.195 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:49:48.446 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:49:48.448 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:49:49.058 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1508 ms
+2020-06-05 16:50:35.857 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 16:50:35.864 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47c148fc] was not registered for synchronization because synchronization is not active
+2020-06-05 16:50:35.975 INFO [http-nio-8080-exec-8][AbstractPoolBackedDataSource.java:527] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 2, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge70haa10j8fpy1nqwyf7|77be053d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge70haa10j8fpy1nqwyf7|77be053d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/ssmbuild?useSSL=true&serverTimezone=GMT, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2020-06-05 16:50:35.994 WARN [http-nio-8080-exec-8][BasicResourcePool.java:291] - Bad pool size config, start 3 < min 10. Using 10 as start.
+2020-06-05 16:50:36.424 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4d90ced1 [wrapping: com.mysql.cj.jdbc.ConnectionImpl@4b4c8a05]] will not be managed by Spring
+2020-06-05 16:50:36.434 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 16:50:36.434 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 16:50:36.483 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: gukki(String)
+2020-06-05 16:50:36.483 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: gukki(String)
+2020-06-05 16:50:36.518 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 16:50:36.518 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 16:50:36.524 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47c148fc]
+2020-06-05 16:50:36.527 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 16:50:36.527 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b1493b0] was not registered for synchronization because synchronization is not active
+2020-06-05 16:50:36.533 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1a0a8ab9 [wrapping: com.mysql.cj.jdbc.ConnectionImpl@4b4c8a05]] will not be managed by Spring
+2020-06-05 16:50:36.534 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, Nickname ) value (?,?,?,? ? ) 
+2020-06-05 16:50:36.534 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, Nickname ) value (?,?,?,? ? ) 
+2020-06-05 16:50:36.535 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: gukki(String), 123456(String), 987466(String), 0(Integer), you(String)
+2020-06-05 16:50:36.535 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: gukki(String), 123456(String), 987466(String), 0(Integer), you(String)
+2020-06-05 16:50:36.550 DEBUG [http-nio-8080-exec-8][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b1493b0]
+2020-06-05 16:53:19.564 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:53:20.044 TRACE [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:425] - Scanning file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:53:20.045 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:53:20.045 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:53:20.154 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:53:20.201 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:53:20.468 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:53:20.470 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:53:21.025 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1453 ms
+2020-06-05 16:53:35.227 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 16:53:35.234 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35be9fb1] was not registered for synchronization because synchronization is not active
+2020-06-05 16:53:35.338 INFO [http-nio-8080-exec-6][AbstractPoolBackedDataSource.java:527] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 2, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge70haa10jczb0bqnx35|222f770c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge70haa10jczb0bqnx35|222f770c, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/ssmbuild?useSSL=true&serverTimezone=GMT, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2020-06-05 16:53:35.357 WARN [http-nio-8080-exec-6][BasicResourcePool.java:291] - Bad pool size config, start 3 < min 10. Using 10 as start.
+2020-06-05 16:53:35.802 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@434efb7d [wrapping: com.mysql.cj.jdbc.ConnectionImpl@6a18d9cc]] will not be managed by Spring
+2020-06-05 16:53:35.813 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 16:53:35.813 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 16:53:35.877 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 123(String)
+2020-06-05 16:53:35.877 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 123(String)
+2020-06-05 16:53:35.915 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 16:53:35.915 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 16:53:35.922 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35be9fb1]
+2020-06-05 16:53:35.924 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 16:53:35.925 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@675583d5] was not registered for synchronization because synchronization is not active
+2020-06-05 16:53:35.932 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@3a3e03c2 [wrapping: com.mysql.cj.jdbc.ConnectionImpl@6a18d9cc]] will not be managed by Spring
+2020-06-05 16:53:35.932 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, Nickname ) value (?,?,?,? ? ) 
+2020-06-05 16:53:35.932 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, Nickname ) value (?,?,?,? ? ) 
+2020-06-05 16:53:35.933 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 123(String), 123(String), 123(String), 0(Integer), 123(String)
+2020-06-05 16:53:35.933 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 123(String), 123(String), 123(String), 0(Integer), 123(String)
+2020-06-05 16:53:35.952 DEBUG [http-nio-8080-exec-6][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@675583d5]
+2020-06-05 16:54:08.467 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:525] - Initializing Servlet 'springmvc'
+2020-06-05 16:54:08.991 TRACE [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:425] - Scanning file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:54:08.991 DEBUG [RMI TCP Connection(3)-127.0.0.1][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\WorkArea\Java\XiaoLuo\out\artifacts\XiaoLuo_war_exploded\WEB-INF\classes\com\gukki\dao\UserMapper.class]
+2020-06-05 16:54:08.992 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Creating MapperFactoryBean with name 'userMapper' and 'com.gukki.dao.UserMapper' mapperInterface
+2020-06-05 16:54:09.101 INFO [MLog-Init-Reporter][MLog.java:191] - MLog clients using log4j2 logging.
+2020-06-05 16:54:09.148 INFO [RMI TCP Connection(3)-127.0.0.1][C3P0Registry.java:248] - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2020-06-05 16:54:09.412 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2020-06-05 16:54:09.414 DEBUG [RMI TCP Connection(3)-127.0.0.1][JakartaCommonsLoggingImpl.java:54] - Property 'mapperLocations' was not specified.
+2020-06-05 16:54:09.976 INFO [RMI TCP Connection(3)-127.0.0.1][FrameworkServlet.java:547] - Completed initialization in 1501 ms
+2020-06-05 16:54:58.851 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 16:54:58.858 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d9b5744] was not registered for synchronization because synchronization is not active
+2020-06-05 16:54:58.958 INFO [http-nio-8080-exec-7][AbstractPoolBackedDataSource.java:527] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 2, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge70haa10je12n84ccxm|215d2031, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge70haa10je12n84ccxm|215d2031, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/ssmbuild?useSSL=true&serverTimezone=GMT, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2020-06-05 16:54:58.976 WARN [http-nio-8080-exec-7][BasicResourcePool.java:291] - Bad pool size config, start 3 < min 10. Using 10 as start.
+2020-06-05 16:54:59.382 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@576c3ed3 [wrapping: com.mysql.cj.jdbc.ConnectionImpl@2a72d002]] will not be managed by Spring
+2020-06-05 16:54:59.392 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 16:54:59.392 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: select * from xiaoluo.user where xiaoluo.user.Name=? 
+2020-06-05 16:54:59.447 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 1231(String)
+2020-06-05 16:54:59.447 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 1231(String)
+2020-06-05 16:54:59.483 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 16:54:59.483 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - <==      Total: 0
+2020-06-05 16:54:59.489 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d9b5744]
+2020-06-05 16:54:59.492 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - Creating a new SqlSession
+2020-06-05 16:54:59.493 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8ef19b] was not registered for synchronization because synchronization is not active
+2020-06-05 16:54:59.500 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4b801922 [wrapping: com.mysql.cj.jdbc.ConnectionImpl@2a72d002]] will not be managed by Spring
+2020-06-05 16:54:59.501 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, Nickname ) value (?,?,?,?, ? ) 
+2020-06-05 16:54:59.501 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - ==>  Preparing: insert into xiaoluo.user(Name, Password, Phone, Role, Nickname ) value (?,?,?,?, ? ) 
+2020-06-05 16:54:59.502 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 1231(String), 123123(String), 123123(String), 0(Integer), 12313(String)
+2020-06-05 16:54:59.502 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - ==> Parameters: 1231(String), 123123(String), 123123(String), 0(Integer), 12313(String)
+2020-06-05 16:54:59.515 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - <==    Updates: 1
+2020-06-05 16:54:59.515 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - <==    Updates: 1
+2020-06-05 16:54:59.515 DEBUG [http-nio-8080-exec-7][JakartaCommonsLoggingImpl.java:54] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8ef19b]
