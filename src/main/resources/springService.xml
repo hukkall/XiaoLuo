@@ -12,5 +12,5 @@
         <!--        注入数据源-->
         <property name="dataSource" ref="DataSource"/>
     </bean>
-<!--    <bean id="UserServiceImpl" class="com.gukki.service.UserServiceImpl"/>-->
+<!--    <bean id="UserServiceImpl" class="com.gukki.service.impl.UserServiceImpl"/>-->
 </beans>

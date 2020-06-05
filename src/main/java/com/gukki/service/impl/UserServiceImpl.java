@@ -1,7 +1,8 @@
-package com.gukki.service;
+package com.gukki.service.impl;
 
 import com.gukki.dao.UserMapper;
 import com.gukki.pojo.User;
+import com.gukki.service.UserService;
 import com.gukki.utils.Res;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

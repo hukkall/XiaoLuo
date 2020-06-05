@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.gukki.dao.OrederMapper">
-    <select id="QueryAll" resultType="order" parameterType="int">
-        SELECT * FROM xiaoluo.user
+<mapper namespace="com.gukki.dao.OrderMapper">
+    <select id="QueryAll" resultType="order">
+        SELECT * FROM xiaoluo.order
     </select>
 </mapper>
